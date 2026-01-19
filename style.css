@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #1A0B2E;
+}
+
+/* navbar design */
+nav{
+    padding: 16px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo-name{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.815);
+}
+nav .logo-name span{
+    font-size: 2rem;
+    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: white;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+    padding: 5px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 15px;
+    font-weight: 500;   
+}
+nav .menu li a:hover{
+    background:linear-gradient(90deg,#FB09B4, #9100F8);
+    border-radius: 10px;   
+}
+.nav-btn .btn{
+    background: linear-gradient(47deg, #F7E93F, #FB09B4, #9100F8);
+    padding: 12px 16px;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* responsive for mobail */
+@media screen and (max-width:576px){
+    nav .menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        flex: start;
+        padding: 16px 20px;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+        
+    }
+}  
