@@ -95,6 +95,7 @@ nav .menu li a:hover {
     align-items: center;
     position: relative;
     width: 350px;
+
 }
 
 .banner-image .cercle img {
@@ -185,6 +186,61 @@ nav .menu li a:hover {
 }
 
 
+/* about section design */
+#about .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 200px 120px 200px;
+}
+
+.about-contant {
+    max-width: 1200px;
+    text-align: center;
+
+}
+
+.about-contant h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.about-contant p {
+    margin: 0px 40px;
+    color: #ffffff;
+    line-height: 28px;
+
+}
+
+.about-contant .bottom {
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid #ffffff11;
+    margin: 80px 0px;
+
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    text-align: center;
+
+}
+
+.about-card h2 {
+    font-size: 2.5rem;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+
+.about-card p {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
 
 
 
@@ -260,6 +316,22 @@ nav .menu li a:hover {
 
     .banner-text p {
         margin: 0 20px 20px;
+    }
+
+   #about .about-container{
+    padding: 20px 30px;
+   }
+    .about-contant h2{
+        font-size: 2rem;
+    }
+    .about-contant p{
+        margin: 0px auto;
+    }
+    hr{
+        margin: 40px auto;
+    }
+    .about-info{
+        grid-template-columns: repeat(2,1fr);
     }
 
 }
