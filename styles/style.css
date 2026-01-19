@@ -14,6 +14,8 @@ body {
 /* navbar design */
 nav {
     padding: 16px 200px;
+    max-width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,9 +69,13 @@ nav .menu li a:hover {
     gap: 5px;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* header banner section design */
 .banner-contant {
-    background: url('./assets/hero-bg.png');
+    background: url(../assets/hero-bg.png);
     min-height: 100vh;
     max-width: 1600px;
     margin: 0 auto;
@@ -193,9 +199,9 @@ nav .menu li a:hover {
     }
 
     nav {
-        width: 100%;
         flex: start;
         padding: 16px 20px;
+        background-color: #110521;
     }
 
     .hamburger {
@@ -211,13 +217,49 @@ nav .menu li a:hover {
 
     .banner-contant {
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        background-position: top center;
-        margin-top: 50px;
-        width: 576px;
+        background-position: center center;
+        width: 100%;
+        background-position: -11px 172px;
+        margin: 0 auto;
+
     }
 
+    .banner-image .cercle img {
+        width: 200px;
+        position: relative;
+        top: 54px;
+        left: -2px;
 
+    }
+
+    .mic img {
+        position: relative;
+        width: 80px;
+        top: 156px;
+        left: -4px;
+    }
+
+    .badge {
+        position: absolute;
+        top: 141px;
+        right: 93px;
+
+
+
+    }
+
+    .banner-text {
+        max-width: 400px;
+        margin: 100px auto;
+
+    }
+
+    .banner-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .banner-text p {
+        margin: 0 20px 20px;
+    }
 
 }
