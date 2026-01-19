@@ -241,7 +241,73 @@ hr {
     color: #ffffff;
 }
 
+/* why section design */
+.why-container {
+    max-width: 1600px;
+    background-color: #230e3d8f;
+    margin: 0 auto;
+    padding: 120px 200px;
 
+}
+
+.why-container .heading {
+    text-align: center;
+}
+
+.why-container .heading h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.why-card-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+}
+
+.why-card-container .why-card {
+    background-color: #35116565;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.why-card-container .card-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.why-card-container .card-2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.why-card-container .card-3 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.why-card-container .card-4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.why-card img {
+    width: 50px;
+    margin-bottom: 16px;
+}
+
+.why-card h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.why-card p{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 24px;
+}
 
 
 /* responsive for mobail */
@@ -318,20 +384,54 @@ hr {
         margin: 0 20px 20px;
     }
 
-   #about .about-container{
-    padding: 20px 30px;
-   }
-    .about-contant h2{
+    #about .about-container {
+        padding: 20px 30px;
+    }
+
+    .about-contant h2 {
         font-size: 2rem;
     }
-    .about-contant p{
+
+    .about-contant p {
         margin: 0px auto;
     }
-    hr{
+
+    hr {
         margin: 40px auto;
     }
-    .about-info{
-        grid-template-columns: repeat(2,1fr);
+
+    .about-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .why-container{
+        padding: 40px 20px;
+    }
+    .why-container .heading h2{
+        font-size: 2rem;
+    }
+    .why-card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .why-card-container .why-card{
+        padding: 24px;  
+    }
+    .why-card-container .card-1{
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    .why-card-container .card-5{
+        grid-column: span 2;
+    }
+    .why-card img{
+        width: 40px;
+        margin-bottom: 5px;
+    }
+    .why-card h3{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .why-card p{
+        font-size: .9rem;
     }
 
 }
