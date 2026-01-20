@@ -648,15 +648,22 @@ hr {
     }
     .footer-contant h2, .footer-contant h2 span{
         font-size: 2.5rem;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
     .footer-contant{
         padding: 20px;
+        background: url('../assets/footerresponsive.png');
+        background-repeat: cover;
+        background-position: center center;
     }
     .footer-icon{
-        flex-wrap: wrap;
-        gap: 35px;
-        margin-bottom: 20px;
+        width: 300px;
+        flex-wrap:  wrap;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
         position: relative;
-    }
+        bottom: 22px;
+}
 }
