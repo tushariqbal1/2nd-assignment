@@ -366,6 +366,61 @@ hr {
     color: #00FF88;
 }
 
+/* host section */
+.host {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.host-heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.host-card{
+    background-color: #35116565;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.host-image img{
+    width: 200px;
+}
+.host-contant h2{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.host-contant p{
+    font-size: 1rem;
+    color: #ffffff9a;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+    
+}
+.host-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social{
+    border: 1px solid #ffffff62;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon{
+    width: 20px;
+}
+
+
+
 
 /* responsive for mobail */
 @media screen and (max-width:576px) {
@@ -445,8 +500,9 @@ hr {
 
         padding: 20px 30px;
         /* padding: 0px 20px 30px; */
-       
-    }   
+
+    }
+
     .about-contant h2 {
         font-size: 2rem;
     }
@@ -519,7 +575,8 @@ hr {
     .video iframe {
         width: 400px;
     }
-    .feature-container{
+
+    .feature-container {
         padding: 40px 0px;
     }
 }
