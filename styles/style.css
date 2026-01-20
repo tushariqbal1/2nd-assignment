@@ -22,12 +22,14 @@ nav {
     border-bottom: 1px solid #412567;
 }
 
-nav .logo-name, .footer-contant h2 {
+nav .logo-name,
+.footer-contant h2 {
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.815);
 }
 
-nav .logo-name span, .footer-contant h2 span {
+nav .logo-name span,
+.footer-contant h2 span {
     font-size: 2rem;
     background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
     background-clip: text;
@@ -165,7 +167,25 @@ nav .menu li a:hover {
     background-color: transparent;
     border: 1px solid #00FF88;
     color: #00FF88;
+    animation: pulse 2s infinite;
+
 }
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px #00ff9c;
+    }
+
+    50% {
+        box-shadow: 0 0 15px #00ff9c;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #00ff9c;
+    }
+}
+
+
 
 .banner-image {
     width: 100%;
@@ -433,38 +453,43 @@ hr {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-   
+
 }
 
 .footer-contant {
     text-align: center;
     padding: 120px;
-    
+
 }
 
-.footer-contant h2, .footer-contant h2 span {
+.footer-contant h2,
+.footer-contant h2 span {
     font-size: 4rem;
     margin-bottom: 30px;
-   
+
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     margin-bottom: 32px;
 }
-.footer-social{
+
+.footer-social {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.footer-social p{
+
+.footer-social p {
     font-size: 1rem;
     font-weight: 500;
     color: #ffffff8c;
 }
-.footer-copyright{
+
+.footer-copyright {
     font-size: 1rem;
     color: #fafafa75;
 }
@@ -650,24 +675,28 @@ hr {
     .host-icon {
         justify-content: center;
     }
-    .footer-contant h2, .footer-contant h2 span{
+
+    .footer-contant h2,
+    .footer-contant h2 span {
         font-size: 2.5rem;
         margin-bottom: 24px;
     }
-    .footer-contant{
+
+    .footer-contant {
         padding: 20px;
         background: url('../assets/footerresponsive.png');
         background-repeat: cover;
         background-position: center center;
     }
-    .footer-icon{
+
+    .footer-icon {
         width: 300px;
-        flex-wrap:  wrap;
+        flex-wrap: wrap;
         gap: 16px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
         position: relative;
         bottom: 22px;
-}
+    }
 }
