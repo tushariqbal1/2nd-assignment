@@ -295,7 +295,8 @@ hr {
 
 .why-card img {
     width: 50px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .why-card h3 {
@@ -303,10 +304,66 @@ hr {
     color: #ffffff;
     margin-bottom: 10px;
 }
-.why-card p{
+
+.why-card p {
     font-size: 1rem;
     color: #ffffff;
+    line-height: 20px;
+}
+
+/* feature section design */
+.feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.feature-heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.video-content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.video {
+    width: 380px;
+    background-color: #35116565;
+    border-radius: 20px;
+}
+
+.video iframe {
+    border-radius: 20px 20px 0 0;
+
+}
+
+.video h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 24px 24px 12px 24px;
+}
+
+.video p {
+    color: #ffffff70;
     line-height: 24px;
+    margin: 24px 24px 12px 24px;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 24px 12px 24px;
+}
+
+.duration h3 {
+    color: #00FF88;
 }
 
 
@@ -385,9 +442,11 @@ hr {
     }
 
     #about .about-container {
-        padding: 20px 30px;
-    }
 
+        padding: 20px 30px;
+        /* padding: 0px 20px 30px; */
+       
+    }   
     .about-contant h2 {
         font-size: 2rem;
     }
@@ -403,35 +462,64 @@ hr {
     .about-info {
         grid-template-columns: repeat(2, 1fr);
     }
-    .why-container{
+
+    .why-container {
         padding: 40px 20px;
     }
-    .why-container .heading h2{
+
+    .why-container .heading h2 {
         font-size: 2rem;
     }
-    .why-card-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .why-card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .why-card-container .why-card{
-        padding: 24px;  
+
+    .why-card-container .why-card {
+        padding: 24px;
     }
-    .why-card-container .card-1{
+
+    .why-card-container .card-1 {
         grid-row: span 1;
         grid-column: span 2;
     }
-    .why-card-container .card-5{
+
+    .why-card-container .card-5 {
         grid-column: span 2;
     }
-    .why-card img{
+
+    .why-card img {
         width: 40px;
         margin-bottom: 5px;
     }
-    .why-card h3{
+
+    .why-card h3 {
         font-size: 1.3rem;
         margin-bottom: 10px;
     }
-    .why-card p{
+
+    .why-card p {
         font-size: .9rem;
     }
 
+    .video-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-heading {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .video {
+        width: 400px;
+    }
+
+    .video iframe {
+        width: 400px;
+    }
+    .feature-container{
+        padding: 40px 0px;
+    }
 }
