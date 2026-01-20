@@ -586,8 +586,7 @@ hr {
     }
     .host-card{
         flex-direction: column;
-        width: 400px;
-        margin: 0 auto;
+        
     }
     .host-contant{
         text-align: center;
