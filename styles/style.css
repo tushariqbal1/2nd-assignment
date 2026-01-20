@@ -22,12 +22,12 @@ nav {
     border-bottom: 1px solid #412567;
 }
 
-nav .logo-name {
+nav .logo-name, .footer-contant h2 {
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.815);
 }
 
-nav .logo-name span {
+nav .logo-name span, .footer-contant h2 span {
     font-size: 2rem;
     background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
     background-clip: text;
@@ -378,7 +378,8 @@ hr {
     font-size: 3rem;
     margin-bottom: 40px;
 }
-.host-card{
+
+.host-card {
     background-color: #35116565;
     padding: 40px;
     border-radius: 40px;
@@ -386,28 +387,33 @@ hr {
     align-items: center;
     gap: 24px;
 }
-.host-image img{
+
+.host-image img {
     width: 200px;
 }
-.host-contant h2{
+
+.host-contant h2 {
     font-size: 2rem;
     color: #ffffff;
     margin-bottom: 15px;
 }
-.host-contant p{
+
+.host-contant p {
     font-size: 1rem;
     color: #ffffff9a;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 15px;
-    
+
 }
-.host-icon{
+
+.host-icon {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.social{
+
+.social {
     border: 1px solid #ffffff62;
     width: 40px;
     display: flex;
@@ -415,8 +421,51 @@ hr {
     padding: 8px;
     border-radius: 50%;
 }
-.icon{
+
+.icon {
     width: 20px;
+}
+
+/* footer section design  */
+.footer-container {
+    background: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+.footer-contant {
+    text-align: center;
+    padding: 120px;
+    
+}
+
+.footer-contant h2, .footer-contant h2 span {
+    font-size: 4rem;
+    margin-bottom: 30px;
+   
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff8c;
+}
+.footer-copyright{
+    font-size: 1rem;
+    color: #fafafa75;
 }
 
 
@@ -580,18 +629,21 @@ hr {
         padding: 40px 0px;
     }
 
-    .host-heading{
+    .host-heading {
         font-size: 2rem;
         margin-bottom: 20px;
     }
-    .host-card{
+
+    .host-card {
         flex-direction: column;
-        
+
     }
-    .host-contant{
+
+    .host-contant {
         text-align: center;
     }
-    .host-icon{
+
+    .host-icon {
         justify-content: center;
     }
 }
