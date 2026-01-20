@@ -579,4 +579,20 @@ hr {
     .feature-container {
         padding: 40px 0px;
     }
+
+    .host-heading{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .host-card{
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .host-contant{
+        text-align: center;
+    }
+    .host-icon{
+        justify-content: center;
+    }
 }
