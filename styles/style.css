@@ -619,11 +619,12 @@ hr {
     }
 
     .video {
-        width: 400px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .video iframe {
-        width: 400px;
+        width: 100%;
     }
 
     .feature-container {
@@ -637,6 +638,8 @@ hr {
 
     .host-card {
         flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
 
     }
 
