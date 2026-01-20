@@ -646,4 +646,17 @@ hr {
     .host-icon {
         justify-content: center;
     }
+    .footer-contant h2, .footer-contant h2 span{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .footer-contant{
+        padding: 20px;
+    }
+    .footer-icon{
+        flex-wrap: wrap;
+        gap: 35px;
+        margin-bottom: 20px;
+        position: relative;
+    }
 }
